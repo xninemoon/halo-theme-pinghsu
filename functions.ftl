@@ -18,7 +18,7 @@ ${bgColor[postId % 10]}
 
 <#-- 随机缩略图 -->
 <#macro randThumbs>
-${randomMethod(0,10)}.jpg
+${randomMethod(0,20)}.jpg
 </#macro>
 
 <#-- 最近发布的文章 -->
