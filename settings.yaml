@@ -50,7 +50,7 @@ style:
       label: 首页文章列表
       type: radio
       data-type: string
-      default: three
+      default: one
       options:
         - value: three
           label: 三栏
@@ -61,7 +61,7 @@ style:
       label: 文章色块设置
       type: radio
       data-type: bool
-      default: false
+      default: true
       options:
         - value: true
           label: 开启
@@ -72,7 +72,7 @@ style:
       label: 文章题图设置
       type: radio
       data-type: bool
-      default: false
+      default: true
       options:
         - value: true
           label: 开启
@@ -105,7 +105,7 @@ style:
       label: 文章 Mathjax 设置
       type: radio
       data-type: bool
-      default: false
+      default: true
       options:
         - value: true
           label: 开启
