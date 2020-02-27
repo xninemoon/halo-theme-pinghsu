@@ -61,8 +61,7 @@
             <span class="icon-search"></span>
         </a>
         <#else>  -->
-        <#--  <div class="navbar-search" onclick="">  -->
-        <div line-height="70px">
+        <div class="navbar-search" onclick="">
             <span class="icon-search"></span>
             <form id="search" method="get" action="${context!}/search" role="search">
                 <span class="search-box">
