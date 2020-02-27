@@ -46,7 +46,7 @@
             </#if>  -->
             ${options.blog_title!}
         </a>
-        <div class="navbar-menu">
+        <#--  <div class="navbar-menu">
 
             <@menuTag method="list">
                 <#list menus?sort_by('priority') as menu>
@@ -54,24 +54,24 @@
                 </#list>
             </@menuTag>
 
-        </div>
+        </div>  -->
 
-        <#if settings.search_page??>
+        <#--  <#if settings.search_page??>
         <a href="${settings.search_page!}" class="navbar-search">
             <span class="icon-search"></span>
         </a>
-        <#else>
-        <div class="navbar-search" onclick="">
+        <#else>  -->
+        <#--  <div class="navbar-search" onclick="">  -->
             <span class="icon-search"></span>
             <form id="search" method="get" action="${context!}/search" role="search">
                 <span class="search-box">
                     <input type="text" id="input" class="input" name="keyword" required="true" placeholder="Search..." maxlength="30" autocomplete="off">
                 </span>
             </form>
-        </div>
-        </#if>
+        <#--  </div>  -->
+        <#--  </#if>  -->
 
-        <div class="navbar-mobile-menu" onclick="">
+        <#--  <div class="navbar-mobile-menu" onclick="">
             <span class="icon-menu cross"><span class="middle"></span></span>
             <ul>
                 <@menuTag method="list">
@@ -80,7 +80,7 @@
                     </#list>
                 </@menuTag>
             </ul>
-        </div>
+        </div>  -->
     </div>
 </header>
 </#macro>
