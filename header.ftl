@@ -62,13 +62,14 @@
         </a>
         <#else>  -->
         <#--  <div class="navbar-search" onclick="">  -->
+        <div line-height="70px">
             <span class="icon-search"></span>
             <form id="search" method="get" action="${context!}/search" role="search">
                 <span class="search-box">
                     <input type="text" id="input" class="input" name="keyword" required="true" placeholder="Search..." maxlength="30" autocomplete="off">
                 </span>
             </form>
-        <#--  </div>  -->
+        </div>
         <#--  </#if>  -->
 
         <#--  <div class="navbar-mobile-menu" onclick="">
