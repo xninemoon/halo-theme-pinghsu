@@ -702,13 +702,14 @@ textarea:-ms-input-placeholder {
     cursor: pointer
 }
 
-.navbar-search form {
+
+/* .navbar-search form {
     overflow: inherit;
     clip: inherit;
     -webkit-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
     opacity: 1
-}
+} */
 
 .navbar-search .icon-search {
     color: #eb5055
