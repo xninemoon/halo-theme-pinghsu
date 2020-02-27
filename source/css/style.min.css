@@ -702,15 +702,6 @@ textarea:-ms-input-placeholder {
     cursor: pointer
 }
 
-
-/* .navbar-search form {
-    overflow: inherit;
-    clip: inherit;
-    -webkit-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-    opacity: 1
-} */
-
 .navbar-search .icon-search {
     color: #eb5055
 }
@@ -747,6 +738,14 @@ textarea:-ms-input-placeholder {
     margin-top: -15px;
     padding-right: 10px;
     opacity: 0
+}
+
+.navbar-search form {
+    overflow: inherit;
+    clip: inherit;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    opacity: 1
 }
 
 .navbar-search form .search-box {
