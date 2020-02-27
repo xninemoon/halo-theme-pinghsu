@@ -8,7 +8,9 @@
 3. 修改博客名称，去掉图标
 
 ### 搜索栏部分内容修改
-1、
-![](https://pan.ninx.net/s/6Lk8HcXsEHacLPc/download)
-2、
-![](https://pan.ninx.net/s/CWtAEmQoF4MYrYw/download)
+
+.navbar-search
+
+修改后的效果：
+
+![](https://pan.ninx.net/s/XAMa8pytXqmnJs9/download)
